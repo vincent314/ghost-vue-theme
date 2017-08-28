@@ -1,0 +1,13 @@
+@import "../../sass/partials/mixin";
+
+article {
+  @include fadeIn;
+}
+
+img {
+  width: 50vw;
+}
+
+iframe {
+  width: 50vw;
+}

@@ -1,0 +1,8 @@
+<div>
+  <article v-for="post in posts">
+    <h1>{{post.title}}</h1>
+
+    <p>Publié {{post.published_at}}</p>
+    <div v-html="post.safeHtml"></div>
+  </article>
+</div>

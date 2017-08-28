@@ -1,5 +1,9 @@
-html, body, #app-main {
-    height: 100%;
+@import 'partials/variables';
+@import 'partials/animate';
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-@import '../components/home/home';
+@import '../components/header/header';
+@import '../components/posts/posts';

@@ -12,14 +12,28 @@
   <!-- /build -->
   <!-- build:css css/main.min.css -->
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="assets/fonts/fonts.css">
+  <link rel="stylesheet" href="assets/splashscreen.css">
   <!-- /build -->
 </head>
 
 <body>
 
 <div id="app-main">
-  <navbar :inverted="false"></navbar>
-  <router-view>loading...</router-view>
+  <theme-header></theme-header>
+  <router-view>
+    <div class="splashscreen__title">
+      <div>THAT’S HOW I LIKE IT</div>
+      <div>BITTER <span class="amp">&</span> SWEET</div>
+    </div>
+
+    <div class="sk-folding-cube">
+      <div class="sk-cube1 sk-cube"></div>
+      <div class="sk-cube2 sk-cube"></div>
+      <div class="sk-cube4 sk-cube"></div>
+      <div class="sk-cube3 sk-cube"></div>
+    </div>
+  </router-view>
 </div>
 
 <!-- build:js js/main.min.js -->

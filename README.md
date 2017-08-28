@@ -2,6 +2,13 @@
 
 > A Vue.js project
 
+Generated with *vue-webpack-typescript* template
+
+```
+vue init vue-webpack-typescript ghost-vue-theme
+```
+
+
 ## Build Setup
 
 ``` bash
